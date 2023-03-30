@@ -1,4 +1,58 @@
+body {
+    display: flex;
+    background-color:rgba(255, 182, 193, 0.692);
+    
+}
+
 img {
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+
+.brand {
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.right-side {
+    flex:2;
+    border-style: dashed;
+    font-family: 'Delicious Handrawn', cursive, sans-serif;
+}
+
+.form-container {
+    border-style: dotted;
+    border-color: pink;
+}
+
+#company-logo {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.2);
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    
+}
+
+.credit {
+    position: absolute;
+    bottom: 1%;
+    color: white;
+    font-size: xx-small;
+    width: 100%;
+    
+}
+
+a {
+    color: white;
+}
+
+.blurb {
+    padding: 10%;
+    font-size: large;
 }
