@@ -20,7 +20,31 @@
     </div>
     <div class = "right-side">
         <div class = "blurb">Sign up to start receiving delicious home-made cakes direct to your door.</div>
-        <div class = "form-container">This will be the form</div>
+        <div class = "form-container">
+            <form action="https://httpbin.org/post" method="post">
+                Sign up here!
+                <fieldset>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id = "first-name" placeholder="Homer" name = "first-name">
+                    
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id = "last-name" placeholder="Simpson" name = "last-name">
+                
+                    <label for="email-address">EMAIL</label>
+                    <input type="email" id = "email-address" placeholder="Homer@springfield.com" name = "email-address">
+
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="email" id = "phone" placeholder="07777 777777" name = "phone">
+                    
+                    <label for="user-password">PASSWORD</label>
+                    <input type="password" id = "user-password" placeholder="********" name = "user-password">
+
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password">
+
+                </fieldset>
+            </form>
+        </div>
     </div>
     <script src = "javascript.js" defer></script>
 </body>
