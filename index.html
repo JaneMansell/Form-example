@@ -22,8 +22,10 @@
         <div class = "blurb">Sign up to start receiving delicious home-made cakes direct to your door.</div>
         <div class = "form-container">
             <form action="https://httpbin.org/post" method="post">
-                Sign up here!
+                
                 <fieldset>
+                    <div>Sign up here!</div>
+                    
                     <label for="first-name">FIRST NAME</label>
                     <input type="text" id = "first-name" placeholder="Homer" name = "first-name">
                     
@@ -43,6 +45,10 @@
                     <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password">
 
                 </fieldset>
+                <div>
+                    <button type = "submit">Create Account</button>
+                    <div>Already Have an account? <a href="https://httpbin.org/post">Log in</a></div>
+                </div>
             </form>
         </div>
     </div>
