@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Example</title>
+    <title>Sign up</title>
     <link rel ="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128151;</text></svg>">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
         <div class = "right-side">
             <div class = "blurb">Sign up to start receiving delicious home-made cakes direct to your door.</div>
             <div class = "form-container">
-                <form action="https://httpbin.org/post" method="post">
+                <form action="login.html" method="post">
         
                     <fieldset>
                         <div class = "signUpText">Sign up here!</div>
@@ -30,29 +30,30 @@
                         <div class="inputContainer">
                             <div class="input">
                                 <label for="first-name">FIRST NAME</label>
-                                <input type="text" id = "first-name" placeholder="Homer" name = "first-name">
+                                <input type="text" id = "first-name" placeholder="Homer" name = "first-name" required>
                             </div>
         
                             <div class="input">
                                 <label for="last-name">LAST NAME</label>
-                                <input type="text" id = "last-name" placeholder="Simpson" name = "last-name">
+                                <input type="text" id = "last-name" placeholder="Simpson" name = "last-name" required>
                             </div>
                             <div class="input">
                                 <label for="email-address">EMAIL</label>
-                                <input type="email" id = "email-address" placeholder="Homer@springfield.com" name = "email-address">
+                                <input type="email" id = "email-address" placeholder="Homer@springfield.com" 
+                                name = "email-address" required>
                             </div>
                             <div class="input">
                                 <label for="phone">PHONE NUMBER</label>
-                                <input type="text" id = "phone" placeholder="07777 777777" name = "phone" pattern="(\d{11})" title = "Please enter an 11 digit phone number, no spaces.">
+                                <input type="text" id = "phone" placeholder="07777 777777" name = "phone" pattern="(\d{11})" title = "Please enter an 11 digit phone number, no spaces." required>
                             </div>
         
                             <div class="input">
                                 <label for="user-password">PASSWORD</label>
-                                <input type="password" id = "user-password" placeholder="********" name = "user-password">
+                                <input type="password" id = "user-password" placeholder="********" name = "user-password" required>
                             </div>
                             <div class="input">
                                 <label for="confirm-password">CONFIRM PASSWORD</label>
-                                <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password">
+                                <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password" required>
                             </div>
                         </div>
                     </fieldset>
