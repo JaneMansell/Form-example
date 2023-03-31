@@ -94,3 +94,7 @@ fieldset {
     padding-top: 5%;
 }
 
+button {
+    padding: 1%;
+    font-size: 110%;
+}
