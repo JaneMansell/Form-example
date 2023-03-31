@@ -52,7 +52,41 @@ a {
     color: white;
 }
 
+.signUpText {
+    font-size: 200%;
+}
+
+.inputContainer {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+label {
+    padding-top: 2%;
+}
+
+fieldset {
+    border: none;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:rgba(247, 217, 222, 0.527);
+}
+
 .blurb {
     padding: 10%;
     font-size: 200%;
 }
+
+.submitSection {
+    padding: 5%;
+}
+
+.alreadyAccount {
+    padding-top: 5%;
+}
+
