@@ -12,57 +12,59 @@
 <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "brand">
-        <img id = "cupcake" src="./cup-cake.jpg" alt="picture of cup cake">
-        <div id = "company-logo">Bethan &#128151; Bakes</div>
-        <div class = "credit">Photo by <a href="https://unsplash.com/es/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sara Cervera</a> on <a href="https://unsplash.com/s/photos/cup-cakes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
-  
-    </div>
-    <div class = "right-side">
-        <div class = "blurb">Sign up to start receiving delicious home-made cakes direct to your door.</div>
-        <div class = "form-container">
-            <form action="https://httpbin.org/post" method="post">
-                
-                <fieldset>
-                    <div class = "signUpText">Sign up here!</div>
-                    
-                    <div class="inputContainer">
-                        <div class="input">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" id = "first-name" placeholder="Homer" name = "first-name">
+    <div class="header"></div>
+    <div class="container">
+        <div class = "brand">
+            <img id = "cupcake" src="./cup-cake.jpg" alt="picture of cup cake">
+            <div id = "company-logo">Bethan &#128151; Bakes</div>
+            <div class = "credit">Photo by <a href="https://unsplash.com/es/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sara Cervera</a> on <a href="https://unsplash.com/s/photos/cup-cakes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+        </div>
+        <div class = "right-side">
+            <div class = "blurb">Sign up to start receiving delicious home-made cakes direct to your door.</div>
+            <div class = "form-container">
+                <form action="https://httpbin.org/post" method="post">
+        
+                    <fieldset>
+                        <div class = "signUpText">Sign up here!</div>
+        
+                        <div class="inputContainer">
+                            <div class="input">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id = "first-name" placeholder="Homer" name = "first-name">
+                            </div>
+        
+                            <div class="input">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id = "last-name" placeholder="Simpson" name = "last-name">
+                            </div>
+                            <div class="input">
+                                <label for="email-address">EMAIL</label>
+                                <input type="email" id = "email-address" placeholder="Homer@springfield.com" name = "email-address">
+                            </div>
+                            <div class="input">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="number" id = "phone" placeholder="07777 777777" name = "phone">
+                            </div>
+        
+                            <div class="input">
+                                <label for="user-password">PASSWORD</label>
+                                <input type="password" id = "user-password" placeholder="********" name = "user-password">
+                            </div>
+                            <div class="input">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password">
+                            </div>
                         </div>
-                        
-                        <div class="input">
-                            <label for="last-name">LAST NAME</label>
-                            <input type="text" id = "last-name" placeholder="Simpson" name = "last-name">
-                        </div>
-                        <div class="input">
-                            <label for="email-address">EMAIL</label>
-                            <input type="email" id = "email-address" placeholder="Homer@springfield.com" name = "email-address">
-                        </div>
-                        <div class="input">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="number" id = "phone" placeholder="07777 777777" name = "phone">
-                        </div>
-                        
-                        <div class="input">
-                            <label for="user-password">PASSWORD</label>
-                            <input type="password" id = "user-password" placeholder="********" name = "user-password">
-                        </div>
-                        <div class="input">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id = "confirm-password" placeholder="********" name = "confirm-password">
-                        </div>
+                    </fieldset>
+                    <div class = "submitSection">
+                        <button type = "submit">Create Account</button>
+                        <div class="alreadyAccount">Already Have an account? <a href="https://httpbin.org/post">Log in</a></div>
                     </div>
-
-                </fieldset>
-                <div class = "submitSection">
-                    <button type = "submit">Create Account</button>
-                    <div class="alreadyAccount">Already Have an account? <a href="https://httpbin.org/post">Log in</a></div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
+    <div class="footer"></div>
     <script src = "javascript.js" defer></script>
 </body>
 </html>

@@ -1,6 +1,12 @@
-body {
+.container {
     display: flex;
     background-color:rgba(255, 182, 193, 0.692);
+    
+}
+
+.header, .footer {
+    height: clamp(0px, 5vw, 10vw);
+    background-color: rgb(121, 119, 119);
     
 }
 
