@@ -17,13 +17,7 @@ img {
 
 .right-side {
     flex:2;
-    border-style: dashed;
     font-family: 'Delicious Handrawn', cursive, sans-serif;
-}
-
-.form-container {
-    border-style: dotted;
-    border-color: pink;
 }
 
 #company-logo {
@@ -54,12 +48,16 @@ a {
 
 .signUpText {
     font-size: 200%;
+    padding-bottom: 5%;
 }
 
 .inputContainer {
     display:flex;
     flex-wrap: wrap;
-    gap: 2%;
+    /*gap: 2%;*/
+    min-height: 25vh;
+    justify-content: space-between;
+    align-content: space-around;
 }
 
 label,input{
